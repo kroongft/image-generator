@@ -4,8 +4,8 @@ import { ColorResult, SketchPicker } from "react-color";
 import { styled } from "styled-components";
 
 export const ImageGenerator = () => {
-  const [color, setColor] = useState<string>("#fff");
-  const [text, setText] = useState<string>("");
+  const [color, setColor] = useState<string>("#111");
+  const [text, setText] = useState<string>("텍스트");
 
   const handleChangeColor = (color: ColorResult) => {
     setColor(color.hex);
@@ -54,6 +54,7 @@ const ImageGeneratorContainer = styled.div`
   width: 800px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
   padding: 24px;
 `;
