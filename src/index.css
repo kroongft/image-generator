@@ -27,3 +27,19 @@ code {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("styles/fonts/NanumSquareNeoTTF-eHv.woff2") format("woff2"),
+    url("styles/fonts/NanumSquareNeoTTF-eHv.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ChosunGs";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
